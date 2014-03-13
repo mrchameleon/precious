@@ -1,4 +1,6 @@
 require "rubygems"
+require "bundler"
+require "gollum"
 Bundler.require(:default)
 
 require "gollum/frontend/app"

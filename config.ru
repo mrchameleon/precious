@@ -6,9 +6,9 @@ Bundler.require(:default)
 require "gollum/frontend/app"
 
 use Rack::Auth::Basic, "Restricted Area" do |username, password|
-  [username, password] == ['dev', 'test']
+  [username, password] == ['admin', 'admin']
 end
 
-Precious::App.set(:gollum_path, '/home/ryan/dev/precious')
+Precious::App.set(:gollum_path, '/path/to/gollum_repo')
 Precious::App.set(:wiki_options, {})
 run Precious::App

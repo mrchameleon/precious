@@ -7,4 +7,4 @@ _italics_
       code here
     end
 
-sup fag
+Josh is a homophobe

@@ -7,6 +7,4 @@ _italics_
       code here
     end
 
-sup fag
-
-hello again noob
+you are lame

@@ -4,4 +4,4 @@
 
 [Noobz Start Here](/noobz)
 
-Jalapeno Business
+[Jalapeno Business](/jalapeno)

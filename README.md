@@ -1,4 +1,4 @@
-After bundling, create a file in the app root called auth_config.yml
+After bundling, create a file in the app root called secret.yml
 
 ```
 user: yourusername

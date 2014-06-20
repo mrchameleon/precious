@@ -1,2 +1,5 @@
-auth_config.yml
+secret.yml
 run
+.rvmrc
+.ruby-gemset
+.ruby-version

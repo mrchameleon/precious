@@ -1,5 +1,16 @@
-1. Set up a ruby version with rbenv or rvm
-2. run bundle install.
+My Precious
+
+Good start for a simple password protected, git based wiki for knowledge sharing within a company or teams
+
+
+Dec 2019 - updated for use with modern ruby
+
+
+1. rbenv - ruby version 2.6.3
+2. mac os install steps
+ - brew install icu4c
+ - gem install charlock_holmes -- --with-icu-dir=/usr/local/opt/icu4c
+ - gem install gollum
 3. Create a file in the app root called secret.yml
 
 ```
@@ -8,24 +19,14 @@ pass: yourpassword
 ```
 
 
-use the following to start the app
+4. use the following to start the app
 ```
 gollum --config auth.rb
 
 or use the handy shortcut, ( ./run  )
 ```
 
-It might be able to be run as a rack app as well, you may need to do some research if you'd like to set that up.
-
-
-
-All credit for this little project goes to the awesome creators of gollum and stackoverflow user "vigntom"
-
-For more info:
+For more info on Gollum:
 
 https://github.com/gollum/gollum
-
-Thanks, vigntom!
-
-http://stackoverflow.com/questions/9634703/strong-access-control-for-gollum
 
